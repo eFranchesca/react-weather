@@ -1,0 +1,31 @@
+.weather form {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.weather h1 {
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.weather li {
+  list-style-type: none;
+  line-height: 1.2;
+}
+
+.weather {
+  border: 1px solid rgb(34, 175, 34);
+  box-shadow: 10px 10px 5px rgba(174, 174, 174, 0.7);
+  padding: 16px;
+  border-radius: 4px;
+  text-align: left;
+  margin: 30px auto;
+  margin-bottom: 0;
+  color: rgb(114, 114, 114);
+}
+
+.temperature {
+  margin-left: 30px;
+   font-size: 45px;
+}
