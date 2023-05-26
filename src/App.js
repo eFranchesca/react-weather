@@ -19,6 +19,8 @@ function App() {
         <a href="https://resonant-kitsune-68394b.netlify.app" target="_blank" rel="noopener noreferrer">Eva Godfrey</a>
       {" "}and is open-sourced on {" "}
         <a href="https://github.com/eFranchesca/weather-react" target="_blank" rel="noopener noreferrer"> Github </a>
+      , hosted on {" "}
+      <a href="https://eva-g-react-weather-app.netlify.app" target="_blank" rel="noopener noreferrer"> Netlify </a>  
       </footer>
 
 
