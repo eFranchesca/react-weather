@@ -18,12 +18,11 @@ export default function Weather(props) {
       date: new Date(response.data.dt * 1000),
       icon: response.data.weather[0].icon
     });
-
   }
 
 function handleSubmit(event) {
   event.preventDefault();
-  
+  search();
 }
 
 function handleCityChange(event) {
@@ -56,7 +55,6 @@ function search() {
         </div>
       </form>
       <WeatherInfo data={weatherData}/>
-
     </div>
   );
   } else {
