@@ -1,0 +1,11 @@
+.WeatherForecast {
+  text-align: center;
+}
+
+.WeatherForecast-day {
+  font-size: 20px;
+}
+
+.WeatherForecast-temperature-max {
+  font-weight: 600;
+}
