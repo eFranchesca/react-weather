@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import WeatherInfo from "./WeatherInfo";
-import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "./Weather.css";
 
@@ -33,7 +32,7 @@ function handleCityChange(event) {
 
 function search() {
   const apiKey = "c119ffef35b7245a5e03b6e5724ae961";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
     axios.get(apiUrl).then(handleResponse);
 }
 
@@ -57,8 +56,7 @@ function search() {
         </div>
       </form>
       <WeatherInfo data={weatherData}/>
-      <WeatherForecast coordinates={weatherData.coordinates}/>
-    </div>
+      </div>
   );
   } else {
     search();
